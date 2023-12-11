@@ -1,6 +1,6 @@
 name: deepurider
-description: A new Flutter package project.
-version: 0.0.1
+description: This is just for learning
+version: 0.0.2
 homepage: https://github.com/Deepurider/pub-pacakges
 
 environment:
@@ -21,6 +21,11 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+plugin:
+    platforms:
+      android:
+        package: com.example.hello
+        pluginClass: HelloPlugin
 
   # To add assets to your package, add an assets section, like this:
   # assets:
